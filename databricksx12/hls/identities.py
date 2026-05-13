@@ -41,6 +41,7 @@ class PatientIdentity(Identity):
             self.subsciber_identifier = nm1.element(9)
             self.name = ' '.join([nm1.element(3), nm1.element(4), nm1.element(5)])
             self.patient_relationship_cd = pat.element(1)
+            self.payer_responsibility_sequence_number_code = sbr.element(1)
             self.subscriber_relationship_cd = sbr.element(2)
             self.street = n3.element(1)
             self.city = n4.element(1)
