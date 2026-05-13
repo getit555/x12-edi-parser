@@ -15,7 +15,9 @@ subscriber.name,2000B,NM1,3,Name Last,Last name
 subscriber.name,2000B,NM1,4,Name First,First name
 subscriber.name,2000B,NM1,5,Name Middle,Middle name
 subscriber.patient_relationship_cd,2000B,PAT,1,Individual Relationship Code,01=Spouse, 18=Self, 19=Child, G8=Other
+subscriber.payer_responsibility_sequence_number_code,200B,SBR,1,P=Primary,S=Seconday,T=Tertiary
 subscriber.subscriber_relationship_cd,2000B,SBR,2,Individual Relationship Code,01=Spouse, 18=Self, 19=Child, G8=Other
+subscriber.claim_filing_indicator_code,2000B,SBR,9,Code identifying type of claim
 subscriber.street,2000B,N3,1,Address Information,Street address
 subscriber.city,2000B,N4,1,City Name,City
 subscriber.state,2000B,N4,2,State or Province Code,State code
